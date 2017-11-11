@@ -4,15 +4,16 @@
 Studing trigger "HLT_DoubleTightChargedIsoPFTau35_Trk1_TightID_eta2p1_Reg"
 
 Using TSG provided timing files corresponding to 50k events:
-/data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567000.root
-/data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567001.root
-/data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567002.root
-/data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567003.root
-/data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567004.root
-/data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567005.root
-/data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567006.root
-/data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567007.root
-/data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567008.root
+
+    /data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567000.root
+    /data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567001.root
+    /data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567002.root
+    /data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567003.root
+    /data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567004.root
+    /data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567005.root
+    /data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567006.root
+    /data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567007.root
+    /data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567008.root
 
 
 Get recent CMSSW and menu from here (CMSSW_9_2_14 on 11 Nov 2017):
@@ -35,7 +36,6 @@ Get timing harvesting cms job here: https://twiki.cern.ch/twiki/bin/viewauth/CMS
 see files: 
 
     cmsRun scripts/harvest.py
-    source scripts/plot.sh
 
 # Plotting
 See centralized tools here: https://github.com/cms-steam/TimingScripts
