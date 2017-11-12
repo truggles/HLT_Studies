@@ -1,19 +1,35 @@
 # HLT_Studies
 
+# Current scripts
+
+In: diTauTight35_highPUdata/
+
+Compare output plot to TSG estimated performance
+https://twiki.cern.ch/twiki/bin/viewauth/CMS/HLTCpuTimingReports2017#Report_HLT_Menu_v4_2_5_November
+HLT_DoubleMediumChargedIsoPFTau40_Trk1_TightID_eta2p1_Reg_v10   26.6965 ms
+
+Good agreement overall.  Good shape agreement with Ram's studies as well.
+
 # Running trigger of interest
 Studing trigger "HLT_DoubleTightChargedIsoPFTau35_Trk1_TightID_eta2p1_Reg"
 
-Using TSG provided timing files corresponding to 50k events:
+Using TSG provided timing files corresponding to 80k events from Nov, see:
+https://twiki.cern.ch/twiki/bin/viewauth/CMS/HLTCpuTimingReports2017#Report_HLT_Menu_v4_2_5_November
 
-    /data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567000.root
-    /data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567001.root
-    /data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567002.root
-    /data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567003.root
-    /data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567004.root
-    /data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567005.root
-    /data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567006.root
-    /data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567007.root
-    /data/user/ecarrera/timing_data/skim_HLTPhysics_301567/HLTPhysics_PU32-38_301567008.root
+    /data/user/ecarrera/timing_data/skim_Ephemeral_305636/Ephemeral_PU56-58_305636000.root
+    /data/user/ecarrera/timing_data/skim_Ephemeral_305636/Ephemeral_PU56-58_305636001.root
+    /data/user/ecarrera/timing_data/skim_Ephemeral_305636/Ephemeral_PU56-58_305636002.root
+    /data/user/ecarrera/timing_data/skim_Ephemeral_305636/Ephemeral_PU56-58_305636003.root
+    /data/user/ecarrera/timing_data/skim_Ephemeral_305636/Ephemeral_PU58-59_305636000.root
+    /data/user/ecarrera/timing_data/skim_Ephemeral_305636/Ephemeral_PU58-59_305636001.root
+    /data/user/ecarrera/timing_data/skim_Ephemeral_305636/Ephemeral_PU58-59_305636002.root
+    /data/user/ecarrera/timing_data/skim_Ephemeral_305636/Ephemeral_PU58-59_305636003.root
+    /data/user/ecarrera/timing_data/skim_Ephemeral_305636/Ephemeral_PU58-59_305636004.root
+    /data/user/ecarrera/timing_data/skim_Ephemeral_305636/Ephemeral_PU59-60_305636000.root
+    /data/user/ecarrera/timing_data/skim_Ephemeral_305636/Ephemeral_PU59-60_305636001.root
+    /data/user/ecarrera/timing_data/skim_Ephemeral_305636/Ephemeral_PU59-60_305636002.root
+    /data/user/ecarrera/timing_data/skim_Ephemeral_305636/Ephemeral_PU59-60_305636003.root
+
 
 
 Get recent CMSSW and menu from here (CMSSW_9_2_14 on 11 Nov 2017):
